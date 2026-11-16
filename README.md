@@ -39,11 +39,7 @@ pip install -r requirements.txt
 jupyter notebook stroke_fairness_audit.ipynb
 ```
 
-Az adat automatikusan letöltődik a `kagglehub`-bal. Ehhez internetkapcsolat, egyes környezetekben Kaggle-hitelesítés kell. Letöltés nélkül is futtatható, ha a `STROKE_CSV` környezeti változó a CSV elérési útjára mutat:
-
-```bash
-export STROKE_CSV=/utvonal/healthcare-dataset-stroke-data.csv      # Windows PowerShell: $env:STROKE_CSV="..."
-```
+Az adat automatikusan letöltődik a `kagglehub`-bal. Ehhez internetkapcsolat, egyes környezetekben Kaggle-hitelesítés kell.
 
 ## Korlátok
 
